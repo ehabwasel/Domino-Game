@@ -72,6 +72,8 @@ c-9e52-e8dcc277ce94.png">
 <img width="1440" alt="Screen Shot 2021-09-21 at 7 28 15 PM" src="https://user-images.githubusercontent.com/72751605/134220162-3087b260-09dd-40c6-a6f9-61f4a77e9076.png">
 <img width="1156" alt="Screen Shot 2021-09-21 at 7 34 49 PM" src="https://user-images.githubusercontent.com/<img width="1156" alt="Screen Shot 2021-09-21 at 7 34 49 PM" src="https://user-images.githubusercontent.com/72751605/134220414-833ade4b-cc1d-4a61-be48-4311384f65fc.png">
 72751605/134220274-903e4124-c7f6-49b7-8cc3-732799ae6a6a.png">
+<img width="1156" alt="Screen Shot 2021-09-21 at 7 34 49 PM" src="https://user-images.githubusercontent.com/72751605/134220627-25c1c5b5-0470-440a-a7af-61e506e1e060.png">
+
 <img width="1150" alt="Screen Shot 2021-09-21 at 7 35 25 PM" src="https://user-images.githubusercontent.com/72751605/134220473-adddca9e-26ea-4693-9119-8cff23c2b796.png">
 
 
