@@ -264,3 +264,34 @@ color: rgb(230, 20, 5);
   padding: 20px;
   border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+ .tile-items {
+  background-color: rgb(221, 49, 6);
+  padding: 10px;
+  margin: 2px;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 2px 2px #c23434;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.board {
+  background: rgb(243, 237, 237);
+  margin: 5px;
+  width: 100%;
+  height: 60vh;
+  border-radius: 10px;
+  letter-spacing: 1.5pt;
+  font-size:1.5rem;
+    overflow: scroll;
+    text-overflow: ellipsis;
+  padding: 10px;
+  font-weight: bolder;
+ 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+}
