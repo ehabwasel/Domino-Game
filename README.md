@@ -62,3 +62,15 @@
     
   </ol>
 </details>
+
+<img width="1357" alt="Screen Shot 2021-09-21 at 7 26 45 PM" src="https://user-images.githubusercontent.com/72751605/134219203-580f81e7-f556-4fd8-b373-11bfa61dbc6e.png">
+
+<img width="1159" alt="Screen Shot 2021-09-21 at 7 31 30 PM" src="https://user-images.githubusercontent.com/72751605/134219425-69bd79b2-d677-442b-8827-980bc6a46e5a.png">
+<img width="1162" alt="Screen Shot 2021-09-21 at 7 33 21 PM" src="https://user-images.githubusercontent.com/72751605/134219576-9a42d0ec-6620-4011-a9ba-feb270ca0359.png">
+<img width="1150" alt="Screen Shot 2021-09-21 at 7 34 09 PM" src="https://user-images.githubusercontent.com/72751605/134219673-1cef0d38-da0d-45b<img width="1150" alt="Screen Shot 2021-09-21 at 7 35 25 PM" src="https://user-images.githubusercontent.com/72751605/134219899-61a8fee0-4e8b-4c50-b489-ce845b96f128.png">
+c-9e52-e8dcc277ce94.png">
+<img width="1440" alt="Screen Shot 2021-09-21 at 7 28 15 PM" src="https://user-images.githubusercontent.com/72751605/134220162-3087b260-09dd-40c6-a6f9-61f4a77e9076.png">
+<img width="1156" alt="Screen Shot 2021-09-21 at 7 34 49 PM" src="https://user-images.githubusercontent.com/72751605/134220274-903e4124-c7f6-49b7-8cc3-732799ae6a6a.png">
+
+![Uploading Screen Shot 2021-09-21 at 7.35.25 PM.png…]()
+
