@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+<div class="d-flex">
+        <button id="game-start" class="btn" onclick="startTheGame()">
+          Start Game!
+        </button>
+        <button id="newGame" class="btn hide" onclick="window.location.reload();">New Game</button>
+        <button id="stockId" class="btn hide">Stock</button>
+        
+      </div>
+        <div class="container_info"></div>
+        <div class="container-win">
+            <h3>Game Over!</h3>
+            <button id="restart-game" onclick="window.location.reload();">Restart</button>
+        </div>
+        <div class="container_game-over">
+            <h3>No tile left on the stock.</h3>
+            <h2>Game Over</h2>
+            <button id="restart" class="btn" onclick="window.location.reload();">Restart</button>
+        </div>
+        <div class="tiles">
+            <ul id="Rob" onclick="playerStartsToPlay(event);" >
+                <p  id="robTitle" class=" hide "> Rob Tiles </p>
+            </ul>
+            <div class="board board_display-none" id="board"></div>
+            <ul id="Alice" onclick="playerStartsToPlay(event);">
+            <p  id="aliceTitle" class= " hide "> Alice Tiles </p>
+        </ul>
+        </div>
+
+    </div>
+    <script src="./domino.js"></script>
+</body>
+
+</html>
