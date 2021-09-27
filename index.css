@@ -49,13 +49,14 @@ body {
   color: rgb(238, 231, 231);
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+ 
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
 }
 #aliceTitle{
   color: #fff;
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin: 1rem;
 
   
 }
@@ -70,13 +71,14 @@ background-color: rgb(204, 9, 171);
 .board {
   background: rgb(243, 237, 237);
   margin: 5px;
-  width: 80%;
-  height: 75vh;
+  width: 97%;
+  height: 50vh;
   border-radius: 10px;
   letter-spacing: 1.5pt;
   font-size:1.5rem;
-    overflow: scroll;
-    text-overflow: ellipsis;
+   position: static;
+   overflow: scroll;
+   text-overflow: auto;
   padding: 10px;
   font-weight: bolder;
  
@@ -116,33 +118,40 @@ color: rgb(230, 20, 5);
 }
 .tiles {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 25px;
 }
 .tileButton {
   width: 105px;
-  font-size: 1.5rem;
+  padding: 5px;
+  height: 200px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2rem;
   background-color: rgb(75, 73, 73);
   color: aliceblue;
   height: 30px;
- margin: 1px;
+  margin: 1px;
   box-shadow: rgb(85, 91, 255) 0px 0px 0px 0.5px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 4px, rgb(255, 156, 85) 0px 0px 0px 2px, rgb(255, 85, 85) 0px 0px 0px 2px;
 }
 .tiles ul {
   list-style: none;
-  margin: 0;
+  margin: 0.5rem;
   padding: 0px;
   align-self: center;
+  display: flex;
+  overflow-x:scroll;
+  flex-flow: row wrap;
 }
 
 .tile-items {
   background-color: rgb(221, 49, 6);
-  padding: 10px;
-  margin: 2px;
-  width: 130px;
+  padding: 5px;
+  margin: 1rem;
+  width: 80px;
   text-align: center;
   border-radius: 5px;
-  
   font-size: 2rem;
   color: #fff;
   font-weight: 800;
@@ -282,13 +291,13 @@ color: rgb(230, 20, 5);
 .board {
   background: rgb(243, 237, 237);
   margin: 5px;
-  width: 100%;
-  height: 60vh;
+  width: 95%;
+  height: 50vh;
   border-radius: 10px;
   letter-spacing: 1.5pt;
   font-size:1.5rem;
-    overflow: scroll;
-    text-overflow: ellipsis;
+  overflow: scroll;
+  text-overflow: ellipsis;
   padding: 10px;
   font-weight: bolder;
  
@@ -299,8 +308,75 @@ color: rgb(230, 20, 5);
   font-size: 1rem;
   background-color: rgb(75, 73, 73);
   color: aliceblue;
+  margin: 5px;
   height: 30px;
  margin: 1px;
   box-shadow: rgb(85, 91, 255) 0px 0px 0px 0.5px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 4px, rgb(255, 156, 85) 0px 0px 0px 2px, rgb(255, 85, 85) 0px 0px 0px 2px;
+}
+.tile-items {
+  background-color: rgb(221, 49, 6);
+  padding: 5px;
+  margin: 10px;
+  width: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  
+  text-shadow: 2px 2px #c23434;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px, rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 4px;
+}
+#Rob > li{
+  color:#fff;
+  background-color: rgb(17, 19, 19);
+  padding: 5px;
+  /* margin: 10px; */
+  width: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  
+  text-shadow: 2px 2px #c23434;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px, rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 4px;
+}
+.container_info {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container_info > div {
+  text-align: center;
+  width: 60%;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  text-shadow: 1px 1px rgb(54, 76, 177);
+}
+
+.alert--info {
+  background-color: rgb(14, 141, 214);
+  color: #fff;
+  height: 30px;
+  font-size: 2rem;
+}
+.alert-count{
+  background-color: green;
+  color: #fff;
+  height: 30px;
+  font-size: 1.5rem;
+}
+
+.alert_danger {
+  background-color: rgb(202, 7, 7);
+  border: 1.5px solid rgb(17, 16, 16);
+  height: 30px;
+  font-size: 1.5rem;
 }
 }

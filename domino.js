@@ -70,13 +70,13 @@ function comparingCount() {
   let AliceSum = sumRecursiveArray(Alice.hand);
   if (RobSum > AliceSum) {
     displayTemporaryElement(
-      ` Tiles are shuffled. Rob count is ${RobSum} , Alice count is ${AliceSum}  Rob  has the greatest Rob play now`,
+      ` Tiles are shuffled. Rob Turn`,
       `alert-count`
     );
     return (Rob.turn = true);
   } else {
     displayTemporaryElement(
-      ` Tiles are shuffled. Alice count is  ${AliceSum}  , Rob count  is ${RobSum} !! Alice  has the greatest Count Alice  play now`,
+      ` Tiles are shuffled. Alice Turn`,
       `alert-count`
     );
     return (Alice.turn = true);
@@ -87,10 +87,7 @@ function updateList(list, player) {
   while (listToUpdate.firstChild) {
     listToUpdate.removeChild(listToUpdate.lastChild);
   }
-  console.log(gamingBoard[0][0]);
-  console.log(gamingBoard[gamingBoard.length - 1][1]);
-  console.log(boardNumbers);
-  console.log(gamingBoard);
+
   for (let [i, v] of player.hand.entries()) {
     createAndAppendElem(
       'li',
@@ -236,6 +233,7 @@ function gamePlay(player, board, selectedTile, inx) {
     writeProcessOnBoard(`${player.name} played ${selectedTile}.`);
     gamingBoard.forEach((tile) => {
       writeProcessOnBoardButton(`${tile}`);
+      
     });
   }, 50);
   if (!player.hand.length) {
@@ -312,7 +310,7 @@ function displayTemporaryElement(text, alertType) {
   setTimeout(function () {
     const tempDiv = document.getElementById('inquirer');
     tempDiv.remove();
-  }, 3000);
+  }, 100);
 }
 
 function isButtonDisabled(id, option) {
