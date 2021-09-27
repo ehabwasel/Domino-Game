@@ -2,25 +2,31 @@
   margin: 0;
   padding: 0;
 }
-#Rob > li{
-  color:#fff;
+#Rob > li {
+  color: #fff;
   background-color: rgb(17, 19, 19);
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
 }
-#Rob > li:hover{
-  color:rgb(14, 12, 12);
-  background-color: #fff;;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+#Rob > li:hover {
+  color: rgb(14, 12, 12);
+  background-color: #fff;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
 }
-#game-start{
-  margin: 23% auto ;
+#game-start {
+  margin: 23% auto;
   width: 200px;
   height: 150px;
   border-radius: 10px;
-}
-#game-start:hover{
   background-color: black;
-color: #fff;
+  color: #fff;
+}
+#game-start:hover {
+  background-color:#fff;
+  color: black;
 }
 body {
   font-family: 'Tenali Ramakrishna', sans-serif;
@@ -45,23 +51,23 @@ body {
   border-radius: 5px;
   font-size: 1.2rem;
 }
-#robTitle{
+#robTitle {
   color: rgb(238, 231, 231);
   text-align: center;
   font-size: 2.5rem;
- 
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
 }
-#aliceTitle{
+#aliceTitle {
   color: #fff;
   text-align: center;
   font-size: 2.5rem;
   margin: 1rem;
-
-  
 }
-#newGame{
-background-color: rgb(204, 9, 171);
+#newGame {
+  background-color: rgb(41, 39, 41);
 }
 
 .btn--disabled {
@@ -75,16 +81,17 @@ background-color: rgb(204, 9, 171);
   height: 50vh;
   border-radius: 10px;
   letter-spacing: 1.5pt;
-  font-size:1.5rem;
-   position: static;
-   overflow: scroll;
-   text-overflow: auto;
+  font-size: 1.5rem;
+  position: static;
+  overflow: scroll;
+  text-overflow: auto;
   padding: 10px;
   font-weight: bolder;
- 
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 .board_display-none {
   display: none;
@@ -99,19 +106,17 @@ background-color: rgb(204, 9, 171);
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding:0.2rem;
+  padding: 0.2rem;
   margin-bottom: 1.5rem;
 }
-.board > button:nth-child(even){
-background-color: red;
-
+.board > button:nth-child(even) {
+  background-color: red;
 }
-.board > p:nth-child(even){
-color: rgb(11, 1, 148);
+.board > p:nth-child(even) {
+  color: rgb(11, 1, 148);
 }
-.board > p:nth-child(odd){
-color: rgb(230, 20, 5);
-
+.board > p:nth-child(odd) {
+  color: rgb(230, 20, 5);
 }
 .hide {
   display: none;
@@ -133,7 +138,9 @@ color: rgb(230, 20, 5);
   color: aliceblue;
   height: 30px;
   margin: 1px;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 0.5px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 4px, rgb(255, 156, 85) 0px 0px 0px 2px, rgb(255, 85, 85) 0px 0px 0px 2px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 0.5px,
+    rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 4px,
+    rgb(255, 156, 85) 0px 0px 0px 2px, rgb(255, 85, 85) 0px 0px 0px 2px;
 }
 .tiles ul {
   list-style: none;
@@ -141,7 +148,7 @@ color: rgb(230, 20, 5);
   padding: 0px;
   align-self: center;
   display: flex;
-  overflow-x:scroll;
+  overflow-x: scroll;
   flex-flow: row wrap;
 }
 
@@ -156,7 +163,9 @@ color: rgb(230, 20, 5);
   color: #fff;
   font-weight: 800;
   text-shadow: 2px 2px #c23434;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
 }
 
 .tile-items:hover {
@@ -204,7 +213,7 @@ color: rgb(230, 20, 5);
   height: 150px;
   font-size: 2rem;
 }
-.alert-count{
+.alert-count {
   background-color: green;
   color: #fff;
   height: 100px;
@@ -218,9 +227,9 @@ color: rgb(230, 20, 5);
   font-size: 1.5rem;
 }
 #stockId {
-  color: #fff;
+  color: rgb(12, 11, 12);
   cursor: pointer;
-  background-color: rgb(65, 167, 24);
+  background-color:#fff;
   padding: 10px;
 
   width: 150px;
@@ -274,120 +283,132 @@ color: rgb(230, 20, 5);
   border-radius: 5px;
 }
 @media only screen and (max-width: 600px) {
- .tile-items {
-  background-color: rgb(221, 49, 6);
-  padding: 10px;
-  margin: 2px;
-  width: 60px;
-  text-align: center;
-  border-radius: 5px;
-  height: 30px;
-  font-size: 1.3rem;
-  color: #fff;
-  font-weight: 800;
-  text-shadow: 2px 2px #c23434;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
-}
-.board {
-  background: rgb(243, 237, 237);
-  margin: 5px;
-  width: 95%;
-  height: 50vh;
-  border-radius: 10px;
-  letter-spacing: 1.5pt;
-  font-size:1.5rem;
-  overflow: scroll;
-  text-overflow: ellipsis;
-  padding: 10px;
-  font-weight: bolder;
- 
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.tileButton {
-  width: 50px;
-  font-size: 1rem;
-  background-color: rgb(75, 73, 73);
-  color: aliceblue;
-  margin: 5px;
-  height: 30px;
- margin: 1px;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 0.5px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 4px, rgb(255, 156, 85) 0px 0px 0px 2px, rgb(255, 85, 85) 0px 0px 0px 2px;
-}
-.tile-items {
-  background-color: rgb(221, 49, 6);
-  padding: 5px;
-  margin: 10px;
-  width: 40px;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  color: #fff;
-  
-  text-shadow: 2px 2px #c23434;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px, rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 4px;
-}
-#Rob > li{
-  color:#fff;
-  background-color: rgb(17, 19, 19);
-  padding: 5px;
-  /* margin: 10px; */
-  width: 40px;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  color: #fff;
-  
-  text-shadow: 2px 2px #c23434;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px, rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 4px;
-}
-#Rob > li:hover{
-  color:rgb(14, 12, 12);
-  background-color: #fff;;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 1px, rgb(255, 217, 19) 0px 0px 0px 1px, rgb(255, 156, 85) 0px 0px 0px 1px, rgb(255, 85, 85) 0px 0px 0px 1px;
-}
-.container_info {
-  display: flex;
-  flex-direction: column;
-  height: 30px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+  .tile-items {
+    background-color: rgb(221, 49, 6);
+    padding: 10px;
+    margin: 2px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 2px 2px #c23434;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
+      rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+      rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  }
+  .board {
+    background: rgb(243, 237, 237);
+    margin: 5px;
+    width: 95%;
+    height: 50vh;
+    border-radius: 10px;
+    letter-spacing: 1.5pt;
+    font-size: 1.5rem;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    padding: 10px;
+    font-weight: bolder;
 
-.container_info > div {
-  text-align: center;
-  width: 60%;
-  height: 30px;
-  margin: 10px;
-  color: white;
-  border-radius: 10px;
-  text-shadow: 1px 1px rgb(54, 76, 177);
-}
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .tileButton {
+    width: 50px;
+    font-size: 1rem;
+    background-color: rgb(75, 73, 73);
+    color: aliceblue;
+    margin: 5px;
+    height: 30px;
+    margin: 1px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 0.5px,
+      rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 4px,
+      rgb(255, 156, 85) 0px 0px 0px 2px, rgb(255, 85, 85) 0px 0px 0px 2px;
+  }
+  .tile-items {
+    background-color: rgb(221, 49, 6);
+    padding: 5px;
+    margin: 10px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
 
-.alert--info {
-  background-color: rgb(14, 141, 214);
-  color: #fff;
-  height: 30px;
-  font-size: 2rem;
-}
-.alert-count{
-  background-color: green;
-  color: #fff;
-  height: 30px;
-  font-size: 1.5rem;
-}
+    text-shadow: 2px 2px #c23434;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px,
+      rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px,
+      rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 4px;
+  }
+  #Rob > li {
+    color: #fff;
+    background-color: rgb(17, 19, 19);
+    padding: 5px;
+    /* margin: 10px; */
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
 
-.alert_danger {
-  background-color: rgb(202, 7, 7);
-  border: 1.5px solid rgb(17, 16, 16);
-  height: 30px;
-  font-size: 1.5rem;
-}
-#game-start{
-  margin: 70% auto ;
-  width: 200px;
-  height: 150px;
-  border-radius: 10px;
-}
+    text-shadow: 2px 2px #c23434;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px,
+      rgb(31, 193, 27) 0px 0px 0px 2px, rgb(255, 217, 19) 0px 0px 0px 3px,
+      rgb(255, 156, 85) 0px 0px 0px 4px, rgb(255, 85, 85) 0px 0px 0px 4px;
+  }
+  #Rob > li:hover {
+    color: rgb(14, 12, 12);
+    background-color: #fff;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px,
+      rgb(31, 193, 27) 0px 0px 0px 1px, rgb(255, 217, 19) 0px 0px 0px 1px,
+      rgb(255, 156, 85) 0px 0px 0px 1px, rgb(255, 85, 85) 0px 0px 0px 1px;
+  }
+  .container_info {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .container_info > div {
+    text-align: center;
+    width: 60%;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    text-shadow: 1px 1px rgb(54, 76, 177);
+  }
+
+  .alert--info {
+    background-color: rgb(14, 141, 214);
+    color: #fff;
+    height: 30px;
+    font-size: 2rem;
+  }
+  .alert-count {
+    background-color: green;
+    color: #fff;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+
+  .alert_danger {
+    background-color: rgb(202, 7, 7);
+    border: 1.5px solid rgb(17, 16, 16);
+    height: 30px;
+    font-size: 1.5rem;
+  }
+  #game-start {
+    margin: 70% auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
 }
